@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json"
+  "settings": {
+	  "orderingRules": {
+		  "systemUsingDirectivesFirst": true,
+		  "usingDirectivesPlacement": "insideNamespace",
+		  "blankLinesBetweenUsingGroups": "require",
+	  },
+	  "namingRules": {
+		  "allowCommonHungarianPrefixes": false
+	  },
+	  "maintainabilityRules": {
+		  "topLevelTypes": [
+			"class",
+			"interface",
+			"struct",
+			"enum"
+		  ]
+	  },
+	  "layoutRules": {
+		  "allowDoWhileOnClosingBrace": true
+	  },
+	  "documentationRules": {
+		  "companyName": ,
+		  "headerDecoration": " ====================================================================//",
+		  "copyrightText": "Copyright (c) {year} {companyName}. All rights reserved.\nLicensed user the {license} license. See {licenseFile} file in the project root for full license information.",
+		  "variables": {
+			  "year": "2021",
+			  "license": ,
+			  "licenseFile": ,
+		  }
+	  }
+}
